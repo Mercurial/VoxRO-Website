@@ -1,0 +1,735 @@
+
+> voxro@0.0.0 start /home/ubuntu/voxro-nodejs/voxro
+> node ./bin/www
+
+
+> voxro@0.0.0 start /home/ubuntu/voxro-nodejs/voxro
+> node ./bin/www
+
+[0mGET / [32m200 [0m14.596 ms - 6899[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m5.406 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m1.560 ms - 7732[0m
+[0mGET /images/features-icon.png [36m304 [0m0.714 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.424 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.234 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.227 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.233 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.195 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.217 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.191 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.211 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.587 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.231 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.235 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.216 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.216 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.227 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.242 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.207 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.203 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.271 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.561 ms - -[0m
+[0mGET / [32m200 [0m2.656 ms - 6899[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.703 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.399 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.347 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.374 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.226 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m1.645 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.512 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m2.255 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.281 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.217 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.218 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.219 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m1.422 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.216 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.202 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.211 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.227 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.202 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.638 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.583 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.205 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.375 ms - -[0m
+[0mGET / [32m200 [0m1.415 ms - 6899[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.662 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.332 ms - 7732[0m
+[0mGET /images/logo.png [32m200 [0m0.340 ms - 33176[0m
+[0mGET /images/home-icon.png [32m200 [0m0.342 ms - 4260[0m
+[0mGET /images/forum-icon.png [32m200 [0m0.349 ms - 3557[0m
+[0mGET /images/features-icon.png [32m200 [0m0.321 ms - 3757[0m
+[0mGET /images/media-icon.png [32m200 [0m1.698 ms - 3672[0m
+[0mGET /images/download-girl.png [32m200 [0m0.315 ms - 28150[0m
+[0mGET /images/ranking-icon.png [32m200 [0m0.429 ms - 3750[0m
+[0mGET /images/woe-icon.png [32m200 [0m0.315 ms - 3353[0m
+[0mGET /images/status-icon.png [32m200 [0m0.346 ms - 3415[0m
+[0mGET /images/gm-icon.png [32m200 [0m0.325 ms - 3601[0m
+[0mGET /images/contact-icon.png [32m200 [0m0.488 ms - 3560[0m
+[0mGET /images/avatar.jpg [32m200 [0m0.324 ms - 22672[0m
+[0mGET /images/emp_arrow_left.png [32m200 [0m0.327 ms - 4377[0m
+[0mGET /images/emp_arrow_right.png [32m200 [0m1.501 ms - 4189[0m
+[0mGET /images/1109.gif [32m200 [0m0.371 ms - 1581[0m
+[0mGET /images/btn_register.jpg [32m200 [0m0.342 ms - 24939[0m
+[0mGET /images/shop.png [32m200 [0m1.160 ms - 76704[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m0.615 ms - 35704[0m
+[0mGET /images/bg.jpg [32m200 [0m0.377 ms - 163607[0m
+[0mGET /favicon.ico [31m500 [0m4.098 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /images/adbar_bg.jpg [32m200 [0m0.583 ms - 11464[0m
+[0mGET / [32m200 [0m0.980 ms - 6899[0m
+[0mGET /stylesheets/index.css [32m200 [0m3.360 ms - 7732[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.587 ms - 364[0m
+[0mGET /images/forum-icon.png [32m200 [0m1.157 ms - 3557[0m
+[0mGET /images/home-icon.png [32m200 [0m0.768 ms - 4260[0m
+[0mGET /images/logo.png [32m200 [0m0.719 ms - 33176[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m0.496 ms - 35704[0m
+[0mGET /images/features-icon.png [32m200 [0m0.392 ms - 3757[0m
+[0mGET /images/media-icon.png [32m200 [0m0.983 ms - 3672[0m
+[0mGET /images/download-girl.png [32m200 [0m0.389 ms - 28150[0m
+[0mGET /images/status-icon.png [32m200 [0m0.339 ms - 3415[0m
+[0mGET /images/gm-icon.png [32m200 [0m0.570 ms - 3601[0m
+[0mGET /images/btn_register.jpg [32m200 [0m0.381 ms - 24939[0m
+[0mGET /images/avatar.jpg [32m200 [0m0.390 ms - 22672[0m
+[0mGET /images/bg.jpg [32m200 [0m0.374 ms - 163607[0m
+[0mGET /images/1109.gif [32m200 [0m0.557 ms - 1581[0m
+[0mGET /images/emp_arrow_left.png [32m200 [0m0.363 ms - 4377[0m
+[0mGET /images/ranking-icon.png [32m200 [0m1.957 ms - 3750[0m
+[0mGET /images/emp_arrow_right.png [32m200 [0m1.482 ms - 4189[0m
+[0mGET /images/contact-icon.png [32m200 [0m0.576 ms - 3560[0m
+[0mGET /images/woe-icon.png [32m200 [0m0.350 ms - 3353[0m
+[0mGET /images/shop.png [32m200 [0m0.372 ms - 76704[0m
+[0mGET /favicon.ico [31m500 [0m1.432 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.405 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m2.764 ms - 6899[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m1.361 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m1.288 ms - 7732[0m
+[0mGET /images/logo.png [32m200 [0m1.338 ms - 33176[0m
+[0mGET /images/home-icon.png [32m200 [0m1.421 ms - 4260[0m
+[0mGET /images/forum-icon.png [32m200 [0m0.859 ms - 3557[0m
+[0mGET /images/features-icon.png [32m200 [0m0.879 ms - 3757[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m1.352 ms - 35704[0m
+[0mGET /images/media-icon.png [32m200 [0m0.978 ms - 3672[0m
+[0mGET /images/download-girl.png [32m200 [0m1.398 ms - 28150[0m
+[0mGET /images/bg.jpg [32m200 [0m1.795 ms - 163607[0m
+[0mGET /images/adbar_bg.jpg [32m200 [0m1.075 ms - 11464[0m
+[0mGET /images/emp_arrow_right.png [32m200 [0m0.962 ms - 4189[0m
+[0mGET /images/ranking-icon.png [32m200 [0m1.040 ms - 3750[0m
+[0mGET /images/gm-icon.png [32m200 [0m1.039 ms - 3601[0m
+[0mGET /images/status-icon.png [32m200 [0m1.016 ms - 3415[0m
+[0mGET /images/contact-icon.png [32m200 [0m0.986 ms - 3560[0m
+[0mGET /images/avatar.jpg [32m200 [0m1.404 ms - 22672[0m
+[0mGET /images/emp_arrow_left.png [32m200 [0m1.138 ms - 4377[0m
+[0mGET /images/woe-icon.png [32m200 [0m1.238 ms - 3353[0m
+[0mGET /images/shop.png [32m200 [0m1.172 ms - 76704[0m
+[0mGET /images/btn_register.jpg [32m200 [0m1.347 ms - 24939[0m
+[0mGET /images/1109.gif [32m200 [0m2.492 ms - 1581[0m
+[0mGET /favicon.ico [31m500 [0m2.262 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m0.993 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.093 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.254 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.139 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m5.272 ms - 6899[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m3.521 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m1.890 ms - 7732[0m
+[0mGET /images/bg.jpg [36m304 [0m1.083 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.567 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.410 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.246 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m1.140 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.382 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m3.867 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m4.462 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.268 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.378 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.219 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.318 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m1.084 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.670 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m2.884 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.272 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.268 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.261 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.764 ms - -[0m
+[0mGET / [32m200 [0m2.275 ms - 6899[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.591 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m2.327 ms - 7732[0m
+[0mGET /images/home-icon.png [32m200 [0m1.395 ms - 4260[0m
+[0mGET /images/logo.png [32m200 [0m1.422 ms - 33176[0m
+[0mGET /images/media-icon.png [32m200 [0m0.947 ms - 3672[0m
+[0mGET /images/forum-icon.png [32m200 [0m1.829 ms - 3557[0m
+[0mGET /images/download-girl.png [32m200 [0m1.252 ms - 28150[0m
+[0mGET /images/features-icon.png [32m200 [0m1.796 ms - 3757[0m
+[0mGET /images/ranking-icon.png [32m200 [0m1.053 ms - 3750[0m
+[0mGET /images/bg.jpg [32m200 [0m2.439 ms - 163607[0m
+[0mGET /images/adbar_bg.jpg [32m200 [0m1.290 ms - 11464[0m
+[0mGET /images/woe-icon.png [32m200 [0m1.101 ms - 3353[0m
+[0mGET /images/status-icon.png [32m200 [0m1.802 ms - 3415[0m
+[0mGET /images/gm-icon.png [32m200 [0m1.121 ms - 3601[0m
+[0mGET /images/contact-icon.png [32m200 [0m1.114 ms - 3560[0m
+[0mGET /images/avatar.jpg [32m200 [0m1.246 ms - 22672[0m
+[0mGET /images/emp_arrow_left.png [32m200 [0m1.151 ms - 4377[0m
+[0mGET /images/emp_arrow_right.png [32m200 [0m1.003 ms - 4189[0m
+[0mGET /images/1109.gif [32m200 [0m0.975 ms - 1581[0m
+[0mGET /images/btn_register.jpg [32m200 [0m1.541 ms - 24939[0m
+[0mGET /images/shop.png [32m200 [0m3.476 ms - 76704[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m1.043 ms - 35704[0m
+[0mGET /favicon.ico [31m500 [0m1.251 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m1.478 ms - 6936[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.961 ms - 7732[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.850 ms - 364[0m
+[0mGET /images/bg.jpg [36m304 [0m3.333 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.262 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.257 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.197 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.406 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.246 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.710 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.241 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.272 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.245 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.210 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.228 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.242 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.249 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.223 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.214 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.219 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.279 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.296 ms - -[0m
+[0mGET / [32m200 [0m3.075 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.624 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.728 ms - 7732[0m
+[0mGET /images/bg.jpg [36m304 [0m0.348 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.314 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.415 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.333 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.236 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.210 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.349 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.229 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.432 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.234 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.272 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.211 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.418 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.362 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.550 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.251 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.321 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m1.276 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.208 ms - -[0m
+[0mGET / [32m200 [0m1.299 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.540 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.351 ms - 7732[0m
+[0mGET /images/bg.jpg [36m304 [0m0.342 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.682 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.227 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.384 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.191 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.206 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.226 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.200 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.222 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.195 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.207 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.242 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.193 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.236 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.213 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.203 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.866 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.199 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.343 ms - -[0m
+[0mGET / [32m200 [0m1.216 ms - 6936[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.548 ms - 7732[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.660 ms - 364[0m
+[0mGET /images/bg.jpg [36m304 [0m0.361 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m1.208 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.329 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.225 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.614 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.226 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.336 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.737 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.362 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.239 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.215 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.225 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.622 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.258 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.377 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m1.674 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.205 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.336 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.734 ms - -[0m
+[0mGET / [32m200 [0m1.240 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.511 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.490 ms - 7732[0m
+[0mGET /images/bg.jpg [36m304 [0m0.300 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.206 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.273 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.178 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.209 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.203 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.257 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.672 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.361 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.217 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.232 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.223 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.209 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.225 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.200 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.233 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.201 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.206 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.201 ms - -[0m
+[0mGET / [32m200 [0m1.129 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m1.201 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.581 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m2.257 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.433 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.289 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.384 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.228 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.346 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.232 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.336 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.195 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.593 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.188 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.351 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.195 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.481 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.220 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.267 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.250 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.233 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.197 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.490 ms - -[0m
+[0mGET / [32m200 [0m1.358 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.510 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.554 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.248 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.234 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.962 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.238 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.195 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.222 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.333 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.226 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.280 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.219 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.294 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.264 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.197 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.215 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.184 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.213 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.191 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.211 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.219 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.292 ms - -[0m
+[0mGET / [32m200 [0m2.196 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.544 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.408 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.248 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.214 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.194 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.257 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.203 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.256 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.226 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.187 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.194 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.201 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.213 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.187 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.171 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.203 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.190 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.194 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.211 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.196 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.218 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.233 ms - -[0m
+[0mGET / [32m200 [0m1.535 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.562 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.354 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.191 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.187 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.171 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.194 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.331 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.196 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.205 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.190 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.224 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.184 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.313 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.207 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.227 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.243 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.196 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.208 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.364 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.186 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.192 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.276 ms - -[0m
+[0mGET / [32m200 [0m2.413 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.572 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.332 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.205 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.184 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.205 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.190 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.350 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.222 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.196 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.197 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.180 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.190 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.380 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m1.036 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.190 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.180 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.205 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.211 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.253 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.211 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.222 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.242 ms - -[0m
+[0mGET / [32m200 [0m14.965 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.561 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.333 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.180 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.187 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.183 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.204 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.285 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.194 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.192 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.169 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.201 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.169 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.296 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.195 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.211 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.198 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.188 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.191 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.251 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.195 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.202 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.176 ms - -[0m
+[0mGET / [32m200 [0m1.571 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.498 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.339 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.219 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.229 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m4.826 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.192 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.411 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.207 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.326 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.185 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.303 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.203 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.355 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.231 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.300 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.194 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.291 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.197 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.357 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.196 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.329 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.191 ms - -[0m
+[0mGET / [32m200 [0m1.387 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.839 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.336 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.186 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.269 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.169 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.298 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.257 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.288 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.251 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.288 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.211 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.320 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.191 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.328 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.182 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.304 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.185 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.302 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.227 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.280 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.232 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.314 ms - -[0m
+[0mGET / [32m200 [0m1.695 ms - 6936[0m
+[0mGET / [32m200 [0m1.475 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.649 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.551 ms - 7732[0m
+[0mGET /images/logo.png [32m200 [0m2.809 ms - 33176[0m
+[0mGET /images/home-icon.png [32m200 [0m1.979 ms - 4260[0m
+[0mGET /images/forum-icon.png [32m200 [0m1.923 ms - 3557[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m0.548 ms - 35704[0m
+[0mGET /images/features-icon.png [32m200 [0m0.396 ms - 3757[0m
+[0mGET /images/woe-icon.png [32m200 [0m0.969 ms - 3353[0m
+[0mGET /images/media-icon.png [32m200 [0m0.972 ms - 3672[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m0.433 ms - 35704[0m
+[0mGET /images/download-girl.png [32m200 [0m0.365 ms - 28150[0m
+[0mGET /images/ranking-icon.png [32m200 [0m0.427 ms - 3750[0m
+[0mGET /images/status-icon.png [32m200 [0m2.420 ms - 3415[0m
+[0mGET /images/gm-icon.png [32m200 [0m0.460 ms - 3601[0m
+[0mGET /images/contact-icon.png [32m200 [0m0.321 ms - 3560[0m
+[0mGET /images/avatar.jpg [32m200 [0m0.606 ms - 22672[0m
+[0mGET /images/emp_arrow_left.png [32m200 [0m0.563 ms - 4377[0m
+[0mGET /images/emp_arrow_right.png [32m200 [0m0.508 ms - 4189[0m
+[0mGET /images/btn_register.jpg [32m200 [0m0.639 ms - 24939[0m
+[0mGET /images/shop.png [32m200 [0m0.297 ms - 76704[0m
+[0mGET /images/adbar_bg.jpg [32m200 [0m0.615 ms - 11464[0m
+[0mGET /images/1109.gif [32m200 [0m0.998 ms - 1581[0m
+[0mGET /images/bg.jpg [32m200 [0m0.311 ms - 163607[0m
+[0mGET /favicon.ico [31m500 [0m1.671 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.966 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m1.254 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.600 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.498 ms - 7732[0m
+[0mGET /images/bg.jpg [36m304 [0m0.443 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.178 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.317 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.215 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.192 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.198 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.244 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.292 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.251 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m2.110 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.213 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.233 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.193 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.246 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.739 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.212 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.240 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.187 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.273 ms - -[0m
+[0mGET / [32m200 [0m1.222 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.496 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.437 ms - 7732[0m
+[0mGET /images/logo.png [32m200 [0m0.338 ms - 33176[0m
+[0mGET /images/home-icon.png [32m200 [0m0.326 ms - 4260[0m
+[0mGET /images/features-icon.png [32m200 [0m0.380 ms - 3757[0m
+[0mGET /images/media-icon.png [32m200 [0m0.316 ms - 3672[0m
+[0mGET /images/forum-icon.png [32m200 [0m0.315 ms - 3557[0m
+[0mGET /images/download-girl.png [32m200 [0m0.513 ms - 28150[0m
+[0mGET /images/status-icon.png [32m200 [0m0.304 ms - 3415[0m
+[0mGET /images/ranking-icon.png [32m200 [0m0.308 ms - 3750[0m
+[0mGET /images/gm-icon.png [32m200 [0m0.308 ms - 3601[0m
+[0mGET /images/contact-icon.png [32m200 [0m0.291 ms - 3560[0m
+[0mGET /images/woe-icon.png [32m200 [0m0.396 ms - 3353[0m
+[0mGET /images/avatar.jpg [32m200 [0m0.305 ms - 22672[0m
+[0mGET /images/emp_arrow_left.png [32m200 [0m0.377 ms - 4377[0m
+[0mGET /images/emp_arrow_right.png [32m200 [0m0.901 ms - 4189[0m
+[0mGET /images/1109.gif [32m200 [0m0.332 ms - 1581[0m
+[0mGET /images/btn_register.jpg [32m200 [0m0.387 ms - 24939[0m
+[0mGET /images/shop.png [32m200 [0m0.292 ms - 76704[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [32m200 [0m0.340 ms - 35704[0m
+[0mGET /images/bg.jpg [32m200 [0m0.386 ms - 163607[0m
+[0mGET /images/adbar_bg.jpg [32m200 [0m0.326 ms - 11464[0m
+[0mGET /favicon.ico [31m500 [0m1.106 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m1.361 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.514 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m1.502 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.201 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.245 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.216 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.202 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.384 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.217 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.190 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.226 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.201 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.285 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.200 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.834 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.188 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.343 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.265 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.311 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.237 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.324 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.227 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.150 ms - 1225[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/voxro-nodejs/voxro/views"
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/voxro-nodejs/voxro/app.js:53:7
+    at Layer.handle_error (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/ubuntu/voxro-nodejs/voxro/node_modules/express/lib/application.js:581:14)
+[0mGET /images/1109.gif [36m304 [0m0.222 ms - -[0m
+[0mGET / [32m200 [0m1.175 ms - 6936[0m
+[0mGET /fonts/lithos_pro/stylesheet.css [32m200 [0m0.536 ms - 364[0m
+[0mGET /stylesheets/index.css [32m200 [0m0.319 ms - 7732[0m
+[0mGET /images/logo.png [36m304 [0m0.300 ms - -[0m
+[0mGET /images/forum-icon.png [36m304 [0m0.199 ms - -[0m
+[0mGET /images/features-icon.png [36m304 [0m0.202 ms - -[0m
+[0mGET /images/home-icon.png [36m304 [0m0.209 ms - -[0m
+[0mGET /images/media-icon.png [36m304 [0m0.344 ms - -[0m
+[0mGET /images/contact-icon.png [36m304 [0m0.206 ms - -[0m
+[0mGET /images/woe-icon.png [36m304 [0m0.195 ms - -[0m
+[0mGET /images/ranking-icon.png [36m304 [0m0.225 ms - -[0m
+[0mGET /images/download-girl.png [36m304 [0m0.224 ms - -[0m
+[0mGET /images/avatar.jpg [36m304 [0m0.950 ms - -[0m
+[0mGET /fonts/lithos_pro/LithosPro-Regular.woff [36m304 [0m0.335 ms - -[0m
+[0mGET /images/1109.gif [36m304 [0m0.352 ms - -[0m
+[0mGET /images/gm-icon.png [36m304 [0m0.201 ms - -[0m
+[0mGET /images/status-icon.png [36m304 [0m0.354 ms - -[0m
+[0mGET /images/btn_register.jpg [36m304 [0m0.200 ms - -[0m
+[0mGET /images/shop.png [36m304 [0m0.197 ms - -[0m
+[0mGET /images/emp_arrow_right.png [36m304 [0m0.367 ms - -[0m
+[0mGET /images/emp_arrow_left.png [36m304 [0m0.210 ms - -[0m
+[0mGET /images/bg.jpg [36m304 [0m0.233 ms - -[0m
+[0mGET /images/adbar_bg.jpg [36m304 [0m0.292 ms - -[0m
+[0mGET / [32m200 [0m1.095 ms - 6936[0m
+[0mGET / [32m200 [0m1.225 ms - 6936[0m

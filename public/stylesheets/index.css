@@ -1,0 +1,561 @@
+body
+{
+	background-color: skyblue;
+	background-image: url('/images/bg.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+div
+{
+	border-radius: 5px;
+}
+
+#mainContainer
+{
+	width: 1280px;
+	margin: auto;
+}
+
+#mainContainerFix
+{
+	width: 100%;
+	float: left;
+}
+
+#logo
+{
+	float: left;
+	margin-top: 14px;
+}
+
+#menuContainer
+{
+	float: left;
+	width: 100%;
+	margin-top: 65px;
+	margin-bottom: 2px;
+}
+
+#topMenu
+{
+	width: 620px;
+	height: 41px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5);
+	margin: auto;
+	color: #FFF;
+}
+
+#topMenu ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-family: Lithos Pro;
+}
+
+#topMenu ul li
+{
+	float: left;
+	margin: 0px 23px;
+}
+
+#topMenu ul li span
+{
+	height: 32px;
+	display: block;
+	float: left;
+	margin-top: calc(41px / 2 - 32px / 2);
+	font-size: 20px;
+}
+
+#topMenu #btnHome span:first-child
+{
+	height: 32px;
+	margin-top: calc(41px / 2 - 32px / 2);
+}
+
+#topMenu #btnForum span:first-child
+{
+	height: 28px;
+	margin-top: calc(41px / 2 - 28px / 2);
+}
+
+#topMenu #btnFeatures span:first-child
+{
+	height: 25px;
+	margin-top: calc(41px / 2 - 25px / 2);
+}
+
+#topMenu #btnMedia span:first-child
+{
+	height: 27px;
+	margin-top: calc(41px / 2 - 27px / 2);
+}
+
+
+#topMenu ul li span:nth-child(2)
+{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+a,a:link,a:hover,a:visited
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+
+#leftSideContainer
+{
+	float: left;
+	width: 224px;
+	min-height: 626px;
+}
+
+#centerContainer
+{
+	float: left;
+	width: 810px;
+	min-height: 626px;
+	margin: 0px 12px;
+}
+
+#rightSideContainer
+{
+	float: left;
+	width: 222px;
+	min-height: 626px;
+}
+
+#announcementsContainer
+{
+	width: calc(100% - 6px);
+	height: 338px;
+	float: left;
+	background-color: rgba(255,255,255,0.8);
+	border: 3px solid rgba(255,255,255,0.9);
+	border-radius: 5px;
+}
+
+#lblAnnouncement
+{
+	width: 100%;
+	height: 37px;
+	border-bottom: 1px solid #FFF;
+	float: left;
+}
+
+#lblAnnouncement h2
+{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-size: 26px;
+	color: #ff0000;
+	font-family: Lithos Pro;
+	font-weight: 300;
+	margin-top: 6px;
+}
+
+.articleItem
+{
+	float: left;
+	font-family: Lithos Pro;
+}
+
+.articleContent
+{
+	float: left;
+	margin-top: 16px;
+}
+
+.articleRight
+{
+	float: left;
+	width: 143px;
+}
+
+.articleLeft
+{
+	float: left;
+	width: calc(100% - 143px - 20px);
+	margin-left: 20px;
+}
+
+.articleUserAvatar
+{
+	border: 3px solid #011ab4;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+.articleUserName
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.articleTitle
+{
+	float: left;
+	width: 100%;
+	font-size: 20px;
+}
+
+.articleDate
+{
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	color: #011ab4;
+}
+
+.articleText
+{
+	float: left;
+	width: calc(100% - 20px);
+	font-size: 15px;
+	margin-top: 10px;
+	text-align: justify;
+	padding-right: 20px;
+}
+
+#articleNav
+{
+	float: left;
+	width: 100%;
+	margin-top: 33px;
+}
+
+#pnButtonContainer
+{
+	width: 146px;
+	height: 27px;
+	margin: auto;
+}
+
+#btnArticlePrev
+{
+	float: left;
+	cursor: pointer;
+}
+
+#articleNumber
+{
+	float: left;
+	font-family: Lithos Pro;
+	text-align: center;
+	width: 94px;
+}
+
+#btnArticleNext
+{
+	float: right;
+	cursor: pointer;
+}
+
+#adContainer
+{
+	width: calc(100% - 6px);
+	height: 270px;
+	background-color: rgba(255,255,255,0.8);
+	border: 3px solid rgba(255,255,255,0.9);
+	float: left;
+	margin-top: 13px;
+}
+
+#adNavBar
+{
+	width: 101%;
+	height: 18px;
+	background-image: url('/images/adbar_bg.jpg');
+	margin-top: -10px;
+	margin-left: -4px;
+	border-radius: 5px;
+}
+
+#adContent
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: Lithos Pro;
+	margin-top: 150px;
+}
+
+#copyright
+{
+	width: calc(100% - 2px);
+	height: calc(40px - 10px);
+	margin-top: 38px;
+	background-color: rgba(0,0,0,0.8);
+	border: 1px solid rgba(255,255,255,0.9);
+	float: left;
+	color: #FFF;
+	text-align: center;
+	font-family: Lithos Pro;
+	padding-top: 10px;
+}
+
+#download
+{
+	float: left;
+	width: calc(100% - 2px);
+	height: 164px;
+	background-color: rgba(229,128,128,0.8);
+	border: 1px solid #ea1812;
+}
+
+#loginForm
+{
+	float: left;
+	width: calc(100% - 22px);
+	min-height: 185px;
+	background-color: rgba(0,0,0,0.8);
+	border: 1px solid #FFF;
+	padding: 10px;
+	font-family: Lithos Pro;
+	color: #FFF;
+}
+
+#downloadGirl
+{
+	float: left;
+	margin-top: -7px;
+}
+
+#leftMenu
+{
+	float: left;
+	width: calc(100% - 22px);
+	background-color: rgba(0,0,0,0.8);
+	height: 290px;
+	border: 1px solid #FFF;
+	margin-top: 6px;
+	padding: 10px;
+}
+
+#socialButtons
+{
+	float: left;
+	width: calc(100% - 22px);
+	background-color: rgba(0,0,0,0.8);
+	min-height: 156px;
+	border: 1px solid #FFF;
+	margin-top: 6px;
+	padding: 10px;
+}
+
+#downloadLeftSide
+{
+	float:left;
+	width: calc(100% - 82px);
+}
+
+#lblDownloadClient
+{
+	float: left;
+	font-family: Lithos Pro;
+	color: #FFF;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 21px;
+}
+
+#lblLoginHere
+{
+	float: left;
+	font-family: Lithos Pro;
+	color: #FFF;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+
+#btnSmallClient
+{
+	margin-bottom: 5px;
+}
+
+#btnFullClient
+{
+}
+
+.btnDownloads
+{
+	float: left;
+	background-color: rgba(222,83,87,0.8);
+	width: 130px;
+	height: 32px;
+	text-align: center;
+	border: 1px solid #efb9b4;
+	font-family: Lithos Pro;
+	color: #FFF;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#lblNavigation, #lblSocialLinks
+{
+	float: left;
+	font-family: Lithos Pro;
+	color: #FFF;
+	width: 100%;
+}
+
+
+#leftMenuItems
+{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+#leftMenuItems ul
+{
+	list-style: none;
+	color: #FFF;
+	font-family: Lithos Pro;
+	padding: 0px;
+	margin: 0px;
+}
+
+#leftMenuItems ul li
+{
+	margin-bottom: 15px;
+}
+
+#socialButtonContainer
+{
+	float: left;
+	width: 100%;
+}
+
+#loginInputContainer
+{
+	float: left;
+}
+
+#loginInputContainer label
+{
+	font-size: 13px;
+}
+
+#loginInputContainer input[type=text]
+{
+	font-family: Lithos Pro;
+	padding: 5px;
+	width: calc(100% - 16px);
+	border: 3px solid #FFF;
+}
+
+#passwordInputContainer
+{
+	float: left;
+}
+
+#passwordInputContainer input[type=password]
+{
+	font-family: Lithos Pro;
+	padding: 5px;
+	width: calc(100% - 16px);
+	border: 3px solid #FFF;
+}
+
+#passwordInputContainer label
+{
+	font-size: 13px;
+}
+
+#btnLoginContainer
+{
+	float: left;
+}
+
+#lblForgotPassword
+{
+	float: left;
+}
+
+#btnLoginContainer
+{
+	float: left;
+	width: 100%;
+}
+
+#btnLoginContainer button
+{
+	background-color: #000;
+	color: #FFF;
+	font-family: Lithos Pro;
+	border: 1px solid #FFF;
+	font-size: 15px;
+	width: calc(100% - 10px);
+	padding: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#lblForgotPassword
+{
+	float: left;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#btnRegister
+{
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+}
+
+#btnMarket
+{
+	float: left;
+	width: 100%;
+	margin-top: 11px;
+}
+
+#serverStatusContainer
+{
+	width: calc(220px - 20px);
+	min-height: 131px;
+	float: right;
+	background-color: rgba(0, 0, 0,0.8);
+	border: 1px solid rgba(255,255,255,0.9);
+	padding: 10px;
+	font-size: 19px;
+	position: absolute;
+	left: calc(100% / 2 - (220px - 20px) / 2 + 518px);
+}
+
+.lblServerStatus
+{
+	font-family: Lithos Pro;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+	margin-bottom: 10px;
+}
+
+.lblServerStatus.value
+{
+	color: #ff8a00;
+	text-shadow: 1px 2px 3px #666;
+}
