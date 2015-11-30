@@ -138,7 +138,7 @@ a:hover
 #announcementsContainer
 {
 	width: calc(100% - 6px);
-	height: 338px;
+	min-height: 338px;
 	float: left;
 	background-color: rgba(255,255,255,0.8);
 	border: 3px solid rgba(255,255,255,0.9);
@@ -167,14 +167,18 @@ a:hover
 
 .articleItem
 {
-	float: left;
+	float: none;
 	font-family: Lithos Pro;
+	width: 100%;
+	display: inline-block;
+	white-space: normal;
 }
 
 .articleContent
 {
 	float: left;
 	margin-top: 16px;
+	width: 100%;
 }
 
 .articleRight
@@ -197,6 +201,12 @@ a:hover
 	height: 100px;
 	margin: auto;
 	margin-bottom: 5px;
+}
+
+.articleUserAvatar img
+{
+	width: 100%;
+	height: 100%;
 }
 
 .articleUserName
@@ -229,6 +239,13 @@ a:hover
 	margin-top: 10px;
 	text-align: justify;
 	padding-right: 20px;
+}
+
+.articleText pre
+{
+	font-family: Lithos Pro;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 #articleNav
@@ -558,4 +575,13 @@ a:hover
 {
 	color: #ff8a00;
 	text-shadow: 1px 2px 3px #666;
+}
+
+#articleItems
+{
+	float: left;
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
