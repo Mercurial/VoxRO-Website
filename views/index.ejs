@@ -126,7 +126,8 @@
 								<div class="articleContent">
 									<div class="articleRight">
 										<div class="articleUserAvatar">
-											<img src="http://forum.voxro.net{{ news.avatar_url }}" alt="avatar"/>
+											<img ng-show="news.avatar_url" src="http://forum.voxro.net{{ news.avatar_url }}" alt="avatar"/>
+											<img ng-show="!news.avatar_url" src="/images/default_avatar.jpg" alt="avatar"/>
 										</div>
 										<div class="articleUserName">{{ news.poster_name }}</div>
 									</div>
