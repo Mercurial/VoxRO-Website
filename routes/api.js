@@ -19,7 +19,7 @@ router.get('/news/latest', function(req, res, next) {
   var db = moongose.connection;
   db.on('error', console.error.bind(console, 'connection error:'));
   db.once('open', function (callback) {
-    objects.find({ '_key': /^topic\:/, 'tid': { $exists: true }},function(err, result){
+    objects.find({ '_key': /^topic\:/, 'tid': { $exists: true }, 'cid': 1},function(err, result){
      
        
       var returnData  = [];
