@@ -2,8 +2,16 @@ var express = require('express');
 var router = express.Router();
 
 var moongose = require('mongoose');
+var mysql      = require('mysql');
 
 var objects = moongose.model('objects', new moongose.Schema());
+
+var connection = mysql.createConnection({
+  host     : 'voxro.net',
+  user     : 'root',
+  password : 'test123',
+  database : 'hercules'
+});
 
 router.get('/news/latest', function(req, res, next) {
   
@@ -48,6 +56,51 @@ router.get('/news/latest', function(req, res, next) {
       
     });
   });
+});
+
+
+router.get('/server/players_online', function(req, res, next) {
+ 
+  
+  connection.query('SELECT count(*) as count FROM hercules.`char` WHERE online=1;', function(err, rows, fields) {
+    if (err) throw err;
+    
+    connection.query("UPDATE mapreg SET value=" + rows[0].count + " WHERE varname='peak_players' AND value  < " + rows[0].count,function () {
+       connection.query('SELECT value FROM hercules.`mapreg` WHERE varname="peak_players";', function(err, rows2, fields) {
+        if (err) throw err;
+        res.send({
+          'count': rows[0].count,
+          'peak': rows2[0].value
+        });
+       });
+    });
+    
+  });
+  
+});
+
+
+
+var net = require('net');
+router.get('/server/status', function(req, res, next) {
+    
+    // the machine to scan
+    var host = 'voxro.net';
+    // starting from port number
+    var start = 5121;
+    var s = new net.Socket();
+          
+    s.connect(start, host, function() {
+      // we don't destroy the socket cos we want to listen to data event
+      // the socket will self-destruct in 2 secs cos of the timeout we set, so no worries
+      res.send({'online': true});
+    });
+    
+    s.on('error', function(e) {
+      // silently catch all errors - assume the port is closed
+      s.destroy();
+       res.send({'online': false});
+    });
 });
 
 module.exports = router;

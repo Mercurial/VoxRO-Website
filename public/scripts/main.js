@@ -2,12 +2,20 @@
 var app = angular.module('VoxROApp', []);
 app.controller('MainPageController', ['$scope', '$http', function ($scope, $http) {
         var mpCtrl = this;
+        var updateIntId;
+        var updateNewsIntId;
+        var updateInterval = 5;
         this.news = [];
         this.newsNo = 1;
-        $http.get('/api/news/latest').success(function (data) {
-            mpCtrl.news = data;
-            mpCtrl.sortNewsByTimestamp();
-        });
+        this.playersOnline = 0;
+        this.peakPlayers = 0;
+        this.serverStatus = 'OFF';
+        this.getNews = function () {
+            $http.get('/api/news/latest').success(function (data) {
+                mpCtrl.news = data;
+                mpCtrl.sortNewsByTimestamp();
+            });
+        };
         this.nextNews = function () {
             mpCtrl.newsNo++;
             if (mpCtrl.newsNo >= mpCtrl.news.length)
@@ -38,5 +46,27 @@ app.controller('MainPageController', ['$scope', '$http', function ($scope, $http
                 return a.timestamp < b.timestamp;
             });
         };
+        this.updatePlayersOnline = function () {
+            $http.get('/api/server/players_online').success(function (data) {
+                mpCtrl.playersOnline = data.count;
+                mpCtrl.peakPlayers = data.peak;
+            });
+        };
+        this.updateServerStatus = function () {
+            $http.get('/api/server/status').success(function (data) {
+                mpCtrl.serverStatus = data.online ? "ON" : "OFF";
+            });
+        };
+        updateIntId = setInterval(function () {
+            mpCtrl.updatePlayersOnline();
+            mpCtrl.updateServerStatus();
+            //mpCtrl.getNews();
+        }, updateInterval * 1000);
+        /*updateNewsIntId = setInterval(function() {
+            mpCtrl.getNews();
+        },5000);*/
+        mpCtrl.updatePlayersOnline();
+        mpCtrl.updateServerStatus();
+        mpCtrl.getNews();
     }]);
 //# sourceMappingURL=main.js.map
