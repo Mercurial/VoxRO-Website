@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="VoxROApp" ng-controller="MainPageController as mpCtrl">
+	<head>
+		<title>Vox Ragnarok Online | Registration</title>
+		<% include common/head %>
+		<link href='/stylesheets/register.css' rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="/scripts/main.js"></script>
+		<script type="text/javascript" src="/scripts/register.js"></script>
+	</head>
+	<body>
+		<% include common/top %>
+				<div id="centerContainer">
+					<div id="announcementsContainer" ng-controller="RegisterPageController as regCtrl">
+						<div id="lblAnnouncement"><h2>REGISTRATION</h2></div>
+						<div id="registerFormContainer">
+							<form id="registerForm" ng-submit="regCtrl.submitForm()">
+								<div class="form-label">username</div>
+								<div class="form-input"><input ng-model="regCtrl.username" minlength="4" pattern=".{4,}"   required title="4 characters minimum" required="" type="text" /></div>
+								<div class="form-label">email</div>
+								<div class="form-input"><input ng-model="regCtrl.email" required="" type="email" pattern=".{4,}"   required title="4 characters minimum" /></div>
+								<div class="form-label">password</div>
+								<div class="form-input"><input ng-model="regCtrl.password" minlength="4" required="" type="password" pattern=".{4,}"   required title="4 characters minimum" /></div>
+								<div class="form-label">confirm password</div>
+								<div class="form-input"><input ng-model="regCtrl.confirmPassword" minlength="4" required="" type="password" pattern=".{4,}"   required title="4 characters minimum" /></div>
+								<div class="form-label">gender</div>
+								<div class="form-input">
+									<select ng-model="regCtrl.gender">
+										<option value="0">Male</option>
+										<option value="1">Female</option>
+									</select>
+								</div>
+								<div class="form-label">birthday</div>
+								<div class="form-input"><input ng-model="regCtrl.birthday" required="" type="date" placeholder="mm/dd/yyyy" min="1997-01-01" /></div>
+								<div class="g-recaptcha" data-sitekey="6LdrPxITAAAAANKgH1cQNyJIlJf8cxr2xLUjT8Hg"></div>
+								<button id="btnRegister" type="submit" ng-click="regCtrl.checkCaptcha()">REGISTER</button>
+							</form>
+						</div>
+					</div>
+					
+					<% include common/ad %>
+					<% include common/footer %>
+				</div>
+		<% include common/bottom %>
+	</body>
+</html>

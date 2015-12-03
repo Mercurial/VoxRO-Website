@@ -1,0 +1,60 @@
+#registerFormContainer
+{
+	float: left;
+	width: calc(100% - 100px);
+	font-family: Lithos Pro;
+	padding: 50px;
+}
+
+.form-label
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+.form-input
+{
+	float: left;
+	width: 100%;
+}
+
+.form-input input
+{
+	padding: 5px;
+	width: calc(100% - 12px);
+	border: 1px solid #000;
+}
+
+.form-input select
+{
+	padding: 5px;
+	width: calc(100%);
+	border: 1px solid #000;
+}
+
+
+#registerFormContainer button[type=submit]
+{
+	background-color: rgba(0,0,0,0.8);
+	color: #FFF;
+	border: 1px solid #FFF;
+	font-size: 15px;
+	width: calc(100% - 10px);
+	padding: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.g-recaptcha
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

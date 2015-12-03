@@ -1,5 +1,5 @@
 /// <reference path="C:/Users/clark/Documents/GitHub/VoxRO-Website/typings/tsd.d.ts" />
-var app = angular.module('VoxROApp', []);
+var app = angular.module('VoxROApp', ['VoxROApp.Register']);
 app.controller('MainPageController', ['$scope', '$http', function ($scope, $http) {
         var mpCtrl = this;
         var updateIntId;
@@ -36,7 +36,6 @@ app.controller('MainPageController', ['$scope', '$http', function ($scope, $http
                             articles[i].style.display = 'none';
                     }
                     var currentArticle = document.querySelector(".articleItem[data-index='" + (mpCtrl.newsNo - 1) + "']");
-                    console.log(currentArticle);
                     currentArticle.style.display = 'inline-block';
                     TweenMax.to(currentArticle, 0.2, { opacity: 1 });
                 } });

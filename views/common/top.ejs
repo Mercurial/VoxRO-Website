@@ -1,0 +1,91 @@
+<!--- facebook ---->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=945556012147297";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!---------------------------------->
+
+<div id="mainContainer">
+<div id="mainContainerFix">
+<div id="logo"><img src="/images/logo.png" alt="logo"/></div>
+<div id="serverStatusContainer">
+	<div class="lblServerStatus">Server Status</div>
+	<div class="lblServerStatus value" ng-class="mpCtrl.serverStatus">{{ mpCtrl.serverStatus }}</div>
+	<div class="lblServerStatus">Players Online</div>
+	<div class="lblServerStatus value">{{ mpCtrl.playersOnline }}</div>
+	<div class="lblServerStatus">Peak Players</div>
+	<div class="lblServerStatus value">{{ mpCtrl.peakPlayers }}</div>
+</div>
+<div id="menuContainer">
+	<div id="topMenu">
+		<ul>
+			<li id="btnHome">
+				<span><img src="/images/home-icon.png" alt="btn_home"/></span>
+				<span><a href="#">Home</a></span>
+			</li>
+			<li id="btnForum">
+				<span><img src="/images/forum-icon.png" alt="btn_forum"/></span>
+				<span><a href="http://forum.voxro.net" target="_blank">Forum</a></span>
+			</li>
+			<li id="btnFeatures">
+				<span><img src="/images/features-icon.png" alt="btn_features"/></span>
+				<span><a href="#">Features</a></span>
+			</li>
+			<li id="btnMedia">
+				<span><img src="/images/media-icon.png" alt="btn_media"/></span>
+				<span><a href="#">Media</a></span>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div id="leftSideContainer">
+	<div id="download">
+		<div id="downloadGirl">
+			<img src="/images/download-girl.png" alt="download girl"/>
+		</div>
+		<div id="downloadLeftSide">
+			<div id="lblDownloadClient">Download Client</div>
+			<button id="btnSmallClient" class="btnDownloads">Small Client</button>
+			<button id="btnFullClient" class="btnDownloads" onclick="window.location.href='https://s3.amazonaws.com/voxro/client/VoxRO-Installer-12-02-2015-BETA-1.exe'">Full Client</button>
+		</div>
+	</div>
+	<div id="leftMenu">
+		<div id="lblNavigation"><span style="font-size: 25px">N</span>AVIGATION</div>
+		<div id="leftMenuItems">
+			<ul>
+				<li>
+					<span><img src="/images/ranking-icon.png" /></span>
+					<span><a href="#">Ranking</a></span>
+				</li>
+				<li>
+					<span><img src="/images/woe-icon.png" /></span>
+					<span><a href="#">War of Emperium</a></span>
+				</li>
+				<li>
+					<span><img src="/images/status-icon.png" /></span>
+					<span><a href="#">Status</a></span>
+				</li>
+				<li>
+					<span><img src="/images/gm-icon.png" /></span>
+					<span><a href="#">GMs</a></span>
+				</li>
+				<li>
+					<span><img src="/images/contact-icon.png" /></span>
+					<span><a href="#">Contacts</a></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="socialButtons">
+		<div id="lblSocialLinks"><span style="font-size: 25px">S</span>OCIAL LINKS</div>
+		<div id="socialButtonContainer">
+			<div class="fb-page" data-href="https://www.facebook.com/voxro" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/voxro"><a href="https://www.facebook.com/voxro">Vox Ragnarok Online</a></blockquote></div></div>
+		</div>
+	</div>
+</div>
