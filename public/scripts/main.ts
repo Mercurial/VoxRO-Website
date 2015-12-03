@@ -2,7 +2,7 @@
 
 var app = angular.module('VoxROApp', ['VoxROApp.Register']);
 
-app.controller('MainPageController',['$scope', '$http', function($scope:  angular.IScope, $http: angular.IHttpService) { 
+app.controller('MainPageController',['$scope', '$http','$sce', function($scope:  angular.IScope, $http: angular.IHttpService, $sce: angular.ISCEService) { 
 	
 	var mpCtrl = this;
 	var updateIntId;
@@ -21,6 +21,7 @@ app.controller('MainPageController',['$scope', '$http', function($scope:  angula
 		$http.get('/api/news/latest').success(function(data){ 
 			mpCtrl.news = data;
 			mpCtrl.sortNewsByTimestamp();
+			mpCtrl.applyNewsMarkDown();
 		});	
 	};
 	
@@ -64,6 +65,13 @@ app.controller('MainPageController',['$scope', '$http', function($scope:  angula
 		mpCtrl.news.sort(function(a, b){
 			return a.timestamp < b.timestamp;
 		});
+	};
+	
+	this.applyNewsMarkDown = function() {
+		for(var i in mpCtrl.news)
+		{
+			mpCtrl.news[i].content = $sce.trustAsHtml(marked(mpCtrl.news[i].content)); 
+		}
 	};
 	
 	

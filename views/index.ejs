@@ -8,8 +8,6 @@
 	</head>
 	<body>
 		<% include common/top %>
-		
-		
 				<div id="centerContainer">
 					<div id="announcementsContainer">
 						<div id="lblAnnouncement"><h2>ANNOUNCEMENT</h2></div>
@@ -33,7 +31,7 @@
 									<div class="articleLeft">
 										<div class="articleTitle"><a href="http://forum.voxro.net/topic/{{ news.url }}" target="_blank">{{ news.title }}</a></div>
 										<div class="articleDate">{{ news.timestamp | date : MM/d/yyyy}}</div>
-										<div class="articleText"><pre>{{ news.content }}</pre></div>
+										<div class="articleText" ng-bind-html="news.content"></div>
 									</div>
 								</div>
 							</article>

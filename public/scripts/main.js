@@ -1,6 +1,6 @@
 /// <reference path="C:/Users/clark/Documents/GitHub/VoxRO-Website/typings/tsd.d.ts" />
 var app = angular.module('VoxROApp', ['VoxROApp.Register']);
-app.controller('MainPageController', ['$scope', '$http', function ($scope, $http) {
+app.controller('MainPageController', ['$scope', '$http', '$sce', function ($scope, $http, $sce) {
         var mpCtrl = this;
         var updateIntId;
         var updateNewsIntId;
@@ -14,6 +14,7 @@ app.controller('MainPageController', ['$scope', '$http', function ($scope, $http
             $http.get('/api/news/latest').success(function (data) {
                 mpCtrl.news = data;
                 mpCtrl.sortNewsByTimestamp();
+                mpCtrl.applyNewsMarkDown();
             });
         };
         this.nextNews = function () {
@@ -44,6 +45,11 @@ app.controller('MainPageController', ['$scope', '$http', function ($scope, $http
             mpCtrl.news.sort(function (a, b) {
                 return a.timestamp < b.timestamp;
             });
+        };
+        this.applyNewsMarkDown = function () {
+            for (var i in mpCtrl.news) {
+                mpCtrl.news[i].content = $sce.trustAsHtml(marked(mpCtrl.news[i].content));
+            }
         };
         this.updatePlayersOnline = function () {
             $http.get('/api/server/players_online').success(function (data) {

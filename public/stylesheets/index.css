@@ -249,6 +249,13 @@ a:hover
 	word-wrap: break-word;
 }
 
+.articleText xmp
+{
+	font-family: Lithos Pro;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
 #articleNav
 {
 	float: left;
