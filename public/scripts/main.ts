@@ -18,7 +18,7 @@ app.controller('MainPageController',['$scope', '$http','$sce', function($scope: 
 	
 	
 	this.getNews = function() {
-		$http.get('/api/news/latest').success(function(data){ 
+		$http.get('/api/news/latest?nonce=' + getCurrentTimestamp()).success(function(data){ 
 			mpCtrl.news = data;
 			mpCtrl.sortNewsByTimestamp();
 			mpCtrl.applyNewsMarkDown();
@@ -76,14 +76,14 @@ app.controller('MainPageController',['$scope', '$http','$sce', function($scope: 
 	
 	
 	this.updatePlayersOnline = function() {
-		$http.get('/api/server/players_online').success(function (data) {
+		$http.get('/api/server/players_online?nonce=' + getCurrentTimestamp() ).success(function (data) {
 			mpCtrl.playersOnline = data.count;
 			mpCtrl.peakPlayers = data.peak;
 		});
 	};
 	
 	this.updateServerStatus = function() {
-		$http.get('/api/server/status').success(function (data) {
+		$http.get('/api/server/status?nonce=' + getCurrentTimestamp()).success(function (data) {
 			mpCtrl.serverStatus = data.online ? "ON" : "OFF";
 		});
 	};
