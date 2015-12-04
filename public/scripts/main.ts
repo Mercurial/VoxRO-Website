@@ -7,7 +7,7 @@ app.controller('MainPageController',['$scope', '$http','$sce', function($scope: 
 	var mpCtrl = this;
 	var updateIntId;
 	var updateNewsIntId;
-	var updateInterval = 5;
+	var updateInterval = 10;
 	
 	this.news = [];
 	this.newsNo = 1;
