@@ -242,6 +242,11 @@ a:hover
 	padding-right: 20px;
 }
 
+.articleText a
+{
+	color: darkblue;
+}
+
 .articleText pre
 {
 	font-family: Lithos Pro;
